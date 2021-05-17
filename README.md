@@ -15,7 +15,9 @@ Depending on your starting point you may focus only on a particular aim during t
 
 ## What is a Jupyter notebook?
 
-https://jupyter.org/
+If you don't know what a Jupyter notebook is or are only vaguely familiar you may want to start working through some of these resources:
+
+- [The offical Jupyter page](https://jupyter.org/)
 https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing 
 What is Jupyter Notebook? Youtube https://youtu.be/q_BzsPxwLOE 
 
