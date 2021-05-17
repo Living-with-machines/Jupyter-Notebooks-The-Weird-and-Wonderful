@@ -18,8 +18,9 @@ Depending on your starting point you may focus only on a particular aim during t
 If you don't know what a Jupyter notebook is or are only vaguely familiar you may want to start working through some of these resources:
 
 - [The offical Jupyter page](https://jupyter.org/)
-- https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing 
-- What is Jupyter Notebook? Youtube https://youtu.be/q_BzsPxwLOE 
+- [The official documentation](https://jupyter.org/documentation)
+- [A Programming Historian lesson (focus on the literate computing section)](https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing)
+- What is Jupyter Notebook? [Youtube video](https://youtu.be/q_BzsPxwLOE)
 
 ### Why are notebook used? 
 
