@@ -1,12 +1,17 @@
 # Introduction to Jupyter Notebooks: the weird and the wonderful 
 (British Library "hack and yack" workshop) 
 
-## Aims 
+### Aims 
+
 Depending on your starting point you may focus only on a particular aim during this session:
 
 - Understand what a Jupyter notebook is and why they are used 
 - How to (try) running notebooks someone else has created
 - Introduce some weird stuff you can do with notebooks
+
+### Session format 
+
+
 
 ## What is a Jupyter notebook?
 
@@ -16,11 +21,9 @@ What is Jupyter Notebook? Youtube https://youtu.be/q_BzsPxwLOE
 
 ### Why are notebook used? 
 
-#### Programming / exploratory data analysis 
-
-#### Research process
-
-#### Teaching material 
+- Programming / exploratory data analysis 
+- Research process
+- Teaching material 
 
 
 
