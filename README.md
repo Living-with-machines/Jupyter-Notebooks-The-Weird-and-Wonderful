@@ -57,6 +57,7 @@ Notebook server
 
 https://github.com/markusschanta/awesome-jupyter
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9Q6sLbz37gk/0.jpg)](https://www.youtube.com/watch?v=9Q6sLbz37gk)
 
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 
