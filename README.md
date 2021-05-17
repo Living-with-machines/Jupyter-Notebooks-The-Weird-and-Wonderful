@@ -57,7 +57,18 @@ Notebook server
 
 https://github.com/markusschanta/awesome-jupyter
 
+https://youtu.be/
+
+
+### I don't like notebooks
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7jiPeIFXb6U/0.jpg)](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+
+
+### I like notebooks
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9Q6sLbz37gk/0.jpg)](https://www.youtube.com/watch?v=9Q6sLbz37gk)
+
 
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 
