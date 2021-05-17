@@ -1,1 +1,2 @@
-# Intro-to-Jupyter-Notebooks-The-Weird-and-Wonderful
+# Introduction to Jupyter Notebooks: the weird and the wonderful 
+
