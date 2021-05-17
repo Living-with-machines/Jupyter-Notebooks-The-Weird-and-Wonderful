@@ -76,27 +76,34 @@ The notebook is now shown in its 'raw' form [here](https://raw.githubusercontent
 
 We can see when we look at the raw version of the notebook it is a json file containing version bits of information i.e. `cell_type`, `metadata`. This is importat to have in mind because it shows that on its own a notebook is basically a json file. We need to have quite a few other things in place to make it interactive. 
 
+What do we need to have in place to run a notebook. Some considerations:
 
+- Where is the code going to run? 
+- What data is required by the notebook?
+- How to get data in the enviroment where you are going to run your code? 
+- What Python packages you will require?
+- Does the code in the notebook your trying to run require particular compute resources (RAM, CPU, GPU)?
 
-Some considerations:
-- Where is the code going to be run - your computer or someone else’s computer?
-- Data required by the notebook and how to get this into your environment 
-- Python packages you will require 
-- Non-python packages expected by the notebook (e.g. TIFFLib)
-- Compute requirements of the code your running 
+This might etiehr seem like quite a modest list of things to consider or way to onerous to bother with. 
 
 ### Running on someone else's computer 
 
-#### Google colab 
 #### Binder 
+what 
+why
+how
 
+##### Further binder resources 
+
+
+#### Google colab 
+
+- enviroment notebook 
+- data notebook 
+-
 
 ### Demo 
-https://github.com/BL-Labs/Jupyter-notebooks-projects-using-BL-Sources 
-
-BL option: 
-Notebook server 
-
+TODO 
 
 ## Weird and wonderful stuff you can  do with notebooks 
 
