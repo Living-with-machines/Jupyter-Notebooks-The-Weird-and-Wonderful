@@ -31,9 +31,50 @@ Since notebook are being used increasingly to document researhc processes, demon
 
 This might seem like repetition when this is covered in the previous section but let's look at what a Jupyter notebook *really* is.
 
+Let's take [this notebook](https://github.com/mchesterkadwell/bughunt-analysis/blob/master/notebooks/1-intro-to-strings.ipynb) as example. 
+If we look at it in the GitHub web interface you'll see something like this: 
 
+<img width="1297" alt="Screenshot 2021-05-17 at 14 50 54" src="https://user-images.githubusercontent.com/8995957/118499973-4f76ff80-b71f-11eb-874f-9556167f00f7.png">
 
-(here we mean just the notebook, not the ecosystem of infasturrecuter around a notebook tha you'll often work with). 
+This looks like a webpage of sorts. However this is a 'rendered' version of a notebook i.e. a version that has been transformed in some way. As an example from another setting if we look at some HTML for a heading it looks like this in its raw form:
+
+```html
+<h5>Heading 5</h5>
+```
+
+and like this when rendered:
+
+<h5>Heading 5</h5>
+
+If we take a look at the underlying notebook it lookls quiote diferent. We can do this in GitHub by viewing the `raw` tab at the top of the notebook. 
+The notebook is now shown in its 'raw' form [here](https://raw.githubusercontent.com/mchesterkadwell/bughunt-analysis/master/notebooks/1-intro-to-strings.ipynb). The raw version of the notebook looks like this:
+
+```json
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "# Introdution to Jupyter Notebooks and Text Processing in Python\n",
+    "This 'document' is a Jupyter notebook. It allows you to combine explanatory **text** and **code** that executes to produce results you can see on the same page.\n",
+    "\n",
+    "## Notebook Basics\n",
+    "\n",
+    "### Text cells\n",
+    "\n",
+    "The box this text is written in is called a *cell*. It is a *text cell* written in a very simple markup language called 'Markdown'. Here is a useful [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). You can edit and then run cells to produce a result. Running this text cell produces formatted text.\n",
+    "\n",
+    "### Code cells\n",
+    "\n",
+    "The other main kind of cell is a *code cell*. The cell immediately below this one is a code cell. Running a code cell runs the code in the cell and produces a result."
+   ]
+  },
+```
+
+We can see when we look at the raw version of the notebook it is a json file containing version bits of information i.e. `cell_type`, `metadata`. This is importat to have in mind because it shows that on its own a notebook is basically a json file. We need to have quite a few other things in place to make it interactive. 
 
 
 
