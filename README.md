@@ -22,16 +22,20 @@ If you don't know what a Jupyter notebook is or are only vaguely familiar you ma
 - [A Programming Historian lesson (focus on the literate computing section)](https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing)
 - What is Jupyter Notebook? [Youtube video](https://youtu.be/q_BzsPxwLOE)
 
-### Why are notebook used? 
-
-- Programming / exploratory data analysis 
-- Research process
-- Teaching material 
-
-
 
 ## How to try running notebooks someone else has created?
-What and why?
+
+Since notebook are being used increasingly to document researhc processes, demonstrate how to use tools and APIs and as a way of creating trainign material it can often be useful to be able to run a notebook someone else has created. The difficulty of doing this ranges from easy to impossible. We'll look a little bit at some of the considerations in more detail in a moment. 
+
+### What is a notebook?
+
+This might seem like repetition when this is covered in the previous section but let's look at what a Jupyter notebook *really* is.
+
+
+
+(here we mean just the notebook, not the ecosystem of infasturrecuter around a notebook tha you'll often work with). 
+
+
 
 Some considerations:
 - Where is the code going to be run - your computer or someone else’s computer?
