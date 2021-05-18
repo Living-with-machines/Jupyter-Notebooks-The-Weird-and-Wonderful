@@ -90,6 +90,10 @@ This might etiehr seem like quite a modest list of things to consider or way to 
 
 ### Running on someone else's computer 
 
+We'll focus on running the code on someone else machine i.e using a "cloud" option. There are definetly advantages to having Jupyter/Python setup on a personal machine but the process for setting this up will vary depending on your device, whether someone else controls your device etc. 
+
+We will focus on two main options for running notebooks in the cloud and some of the considerations for what you need to use each. 
+
 #### Binder 
 what 
 why
