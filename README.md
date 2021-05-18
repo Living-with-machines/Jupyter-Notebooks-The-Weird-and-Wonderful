@@ -113,13 +113,39 @@ Since Mybinder is intended to help support reproducible research it can be used 
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
-https://mybinder.org/v2/gh/mchesterkadwell/bughunt-analysis/master
+If we follow one of the launch on binder links Binder will begin setting up the required infrastructure required to run the notebook. For example if we go to this repository [https://github.com/mchesterkadwell/bughunt-analysis]() we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc. required for the notebook to run successfully. In this 'easy mode' we don't need to but be a bit patient whilst mybinder launches. 
+
+#### Exercise: Binder on hard mode 
+
+If we don't see a 'launch on binder' button the steps required to run the notebook might be a bit more involved. We'll work through an example to show what we need to check for and consider. 
+
+We'll use a repository containing notebooks [Does Late Style Exist?](https://github.com/JonathanReeve/late-style-PCA/tree/8af8277439f0bce77d3f3ba87f5ef59018fab68f)
+
+If we look at what's inside the repository:
+
+We can see that we have a folder for data, this is a good sign that the data is included with the repository and won't have to be sourced from somewhere else. 
+
+We also see a bunch of notebooks, and other folders. One thing we don't see is a `requirements.txt` or `environment.yml` file. These files are used by Binder to determine which Python libraries a repository will need. Since these aren't available Binder won't know what libraries are available. Let's proceed anyway and see how we get on. 
+
+If we go to the mybinder [website](https://mybinder.org/) you'll see an interface which allows you to paste in a URL for a repository. Paste in the link to the GitHub repository. This should start the process of setting up a binder instance for this repository. 
+
+Once mybinder has setup you should see something like:
+
+Try running through the `late-style-PCA.ipynb` notebook. 
+- What problems do you run into? 
+- Why do you run into these problems. 
+- Do you have ideas about how to fix these issues?
 
 
+#### When Binder might not be suitable
+
+There are some occasions when Binder might not be the best choice for trying to run someone's notebook. These include:
+
+- when you want to save your changes, although this is possible to do if you wait to long binder will shutdown and you will loose any modification's you made to the notebooks. 
+- when you need more compute power; binder has fairly low resources allocated to each 'instance'. If you are running code that might require a large amount of memory then binder may struggle or crash. 
+- if you require GPU: if you are running a notebook that suggests or requires a GPU then Binder is probably not a good option. 
 
 
-why
-how
 
 #### Further binder resources 
 
