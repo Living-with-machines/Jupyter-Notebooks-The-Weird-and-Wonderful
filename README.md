@@ -227,3 +227,4 @@ fastpages.fast.ai/
 
 RISE - Reveal.js Jupyter/IPython Slideshow.
 
+nbconvert - Convert Notebooks to other formats. https://livingwithmachines.ac.uk/using-github-actions-and-jupyter-notebooks-to-track-living-with-machines-github-traffic/
