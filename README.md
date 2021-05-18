@@ -173,19 +173,39 @@ An alternative option to Binder is Google Colab. This is also a hosted notebook 
 - Colab notebooks can be saved, but the notebook 'state' will reset after colab times out (maximum time is ~12 hours, but this requires interacting i.e. the notebook won't sit idle for 12 hours). 
 - you need a Google account to use Colab. 
 
-- enviroment notebook 
-- data notebook 
--
+#### Colab on easy mode 
 
-### Demo 
-TODO 
+Colab is also increasingly being used as a way of making notebooks accessible for others to work with. This means that alongside a 'run on binder' option you will sometimes see a "open in colab" option. When you see this *often* the authors of the notebook will have tried to set up the notebook in a way which doesn't require additonal work for you to get it to run. Some examples of this:
+
+- https://github.com/BL-Labs/Jupyter-notebooks-projects-using-BL-Sources
+- https://github.com/Living-with-machines/Computer-Vision-for-the-Humanities-workshop
+
+
+#### Colab on hard mode
+
+You may want to run a notebook on Colab which hasn't specifically been setup for Colab. There are a few main things you will need to get a notebook working in Colab:
+
+- setup the environment: often notebooks will rely on Python packages that aren't included in the Colab environment. You will need to make sure these are installed in Colab
+- setup data: if the notebook your working with requires external data you will often need to setup some way of getting this data into Colab. 
+
+For each of these topics a notebook has been prepared that discusses how to tackle these two areas:
+
+- environment notebook 
+- data notebook 
+
+
+
 
 ## Weird and wonderful stuff you can  do with notebooks 
 
+If all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally this section introduces some weird and wonderful things we can do using notebooks that you could explore during this session. 
+
+
+
+
 https://github.com/markusschanta/awesome-jupyter
 
-https://youtu.be/
-
+As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. 
 
 ### I don't like notebooks
 
