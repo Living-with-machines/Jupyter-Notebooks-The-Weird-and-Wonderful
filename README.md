@@ -95,7 +95,14 @@ We'll focus on running the code on someone else machine i.e using a "cloud" opti
 We will focus on two main options for running notebooks in the cloud and some of the considerations for what you need to use each. 
 
 #### Binder 
-what 
+
+##### What is Binder
+
+##### Binder on easy mode 
+
+<img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
+
+
 why
 how
 
