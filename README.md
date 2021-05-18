@@ -194,31 +194,29 @@ For each of these topics a notebook has been prepared that discusses how to tack
 - data notebook 
 
 
-
-
-## Weird and wonderful stuff you can  do with notebooks 
-
-If all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally this section introduces some weird and wonderful things we can do using notebooks that you could explore during this session. 
-
-
-
-
-https://github.com/markusschanta/awesome-jupyter
-
-As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. 
+## Are notebooks bad?
+As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. It may be useful to be aware of these debates and some of the arguments but forward if you plan to work with notebook further. There may be occasions when some 'explains' to you that notebooks are terrible and you should stop using them and instead use their preffered coding envrioment/text editor/font etc 😜. 
 
 ### I don't like notebooks
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7jiPeIFXb6U/0.jpg)](https://www.youtube.com/watch?v=7jiPeIFXb6U)
-
 
 ### I like notebooks
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9Q6sLbz37gk/0.jpg)](https://www.youtube.com/watch?v=9Q6sLbz37gk)
 
 
-Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
+## Weird and wonderful stuff you can  do with notebooks 
 
+If all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally this section introduces some weird and wonderful things we can do using notebooks that you could explore during this session. 
+
+For a fuller list of things you can do in notebooks there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list I've picked out some personal highlights with a short summary of what they are and why they might be paerticuarly useful in a GLAM setting. 
+
+### Create a Python library using notebooks
 nbdev - Develop, package and distribute Python packages to PyPI using Jupyter as a Literate Programing environment.
+
+### Build an interactive dashboard from notebooks
+
+Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 
 
