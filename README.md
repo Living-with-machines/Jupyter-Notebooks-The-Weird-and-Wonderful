@@ -153,9 +153,13 @@ There are some occasions when Binder might not be the best choice for trying to 
 - if you require GPU: if you are running a notebook that suggests or requires a GPU then Binder is probably not a good option. 
 
 
+#### Binder exercise
 
-#### Further binder resources 
+Using [documentation](https://mybinder.readthedocs.io/en/latest/introduction.html) from binder either follow their example or try replicating it on another GitHub repository containing Jupyter notebooks. 
 
+Some possible sources for notebooks include: 
+
+If you are feeling particularly ambitious you can fork a GitHub repository and make the required changes to get it running in binder.
 
 ### Google colab 
 
