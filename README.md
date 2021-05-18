@@ -1,7 +1,7 @@
 # Introduction to Jupyter Notebooks: the weird and the wonderful 
 (British Library "hack and yack" workshop) 
 
-### Aims 
+## Aims 
 
 Depending on your starting point you may focus only on a particular aim during this session:
 
@@ -9,13 +9,13 @@ Depending on your starting point you may focus only on a particular aim during t
 - How to (try) running notebooks someone else has created
 - Introduce some weird stuff you can do with notebooks
 
-### Session format 
+## Session format 
 
-#### Contents
+### Contents
 
 
 
-## What is a Jupyter notebook?
+# What is a Jupyter notebook?
 
 If you don't know what a Jupyter notebook is or are only vaguely familiar you may want to start working through some of these resources:
 
@@ -29,7 +29,7 @@ If you don't know what a Jupyter notebook is or are only vaguely familiar you ma
 
 Since notebook are being used increasingly to document researhc processes, demonstrate how to use tools and APIs and as a way of creating trainign material it can often be useful to be able to run a notebook someone else has created. The difficulty of doing this ranges from easy to impossible. We'll look a little bit at some of the considerations in more detail in a moment. 
 
-### What is a notebook?
+## What is a notebook?
 
 This might seem like repetition when this is covered in the previous section but let's look at what a Jupyter notebook *really* is.
 
@@ -88,17 +88,17 @@ What do we need to have in place to run a notebook. Some considerations:
 
 This might etiehr seem like quite a modest list of things to consider or way to onerous to bother with. 
 
-### Running on someone else's computer 
+## Running on someone else's computer 
 
 We'll focus on running the code on someone else machine i.e using a "cloud" option. There are definetly advantages to having Jupyter/Python setup on a personal machine but the process for setting this up will vary depending on your device, whether someone else controls your device etc. 
 
 We will focus on two main options for running notebooks in the cloud and some of the considerations for what you need to use each. 
 
-#### Binder 
+### Binder 
 
-##### What is Binder
+#### What is Binder
 
-##### Binder on easy mode 
+#### Binder on easy mode 
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
@@ -106,10 +106,10 @@ We will focus on two main options for running notebooks in the cloud and some of
 why
 how
 
-##### Further binder resources 
+#### Further binder resources 
 
 
-#### Google colab 
+### Google colab 
 
 - enviroment notebook 
 - data notebook 
