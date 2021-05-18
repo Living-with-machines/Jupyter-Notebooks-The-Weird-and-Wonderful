@@ -217,6 +217,12 @@ nbdev - Develop, package and distribute Python packages to PyPI using Jupyter as
 
 ### Build an interactive dashboard from notebooks
 
+https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks
+
+https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb
+
+
+
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 
 
