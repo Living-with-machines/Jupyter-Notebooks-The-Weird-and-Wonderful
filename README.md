@@ -123,6 +123,9 @@ We'll use a repository containing notebooks [Does Late Style Exist?](https://git
 
 If we look at what's inside the repository:
 
+<img width="858" alt="Screenshot 2021-05-18 at 12 37 32" src="https://user-images.githubusercontent.com/8995957/118647527-56fadf00-b7d9-11eb-8051-376918c376b0.png">
+
+
 We can see that we have a folder for data, this is a good sign that the data is included with the repository and won't have to be sourced from somewhere else. 
 
 We also see a bunch of notebooks, and other folders. One thing we don't see is a `requirements.txt` or `environment.yml` file. These files are used by Binder to determine which Python libraries a repository will need. Since these aren't available Binder won't know what libraries are available. Let's proceed anyway and see how we get on. 
@@ -130,6 +133,10 @@ We also see a bunch of notebooks, and other folders. One thing we don't see is a
 If we go to the mybinder [website](https://mybinder.org/) you'll see an interface which allows you to paste in a URL for a repository. Paste in the link to the GitHub repository. This should start the process of setting up a binder instance for this repository. 
 
 Once mybinder has setup you should see something like:
+
+
+<img width="1158" alt="Screenshot 2021-05-18 at 13 03 35" src="https://user-images.githubusercontent.com/8995957/118647648-798cf800-b7d9-11eb-8ad3-5fbd43770161.png">
+
 
 Try running through the `late-style-PCA.ipynb` notebook. 
 - What problems do you run into? 
