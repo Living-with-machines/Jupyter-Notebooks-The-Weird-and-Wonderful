@@ -1,5 +1,6 @@
-# Introduction to Jupyter Notebooks: the weird and the wonderful 
-(British Library "hack and yack" workshop) 
+# Introduction to Jupyter Notebooks: the weird and the wonderful
+
+Materials for British Library "hack and yack" workshop
 
 ## Aims 
 
@@ -27,7 +28,7 @@ If you don't know what a Jupyter notebook is or are only vaguely familiar you ma
 
 ## How to try running notebooks someone else has created?
 
-Since notebook are being used increasingly to document researhc processes, demonstrate how to use tools and APIs and as a way of creating trainign material it can often be useful to be able to run a notebook someone else has created. The difficulty of doing this ranges from easy to impossible. We'll look a little bit at some of the considerations in more detail in a moment. 
+Since notebook are being used increasingly to document research processes, demonstrate how to use tools and APIs, and as a way of creating training material it can often be useful to be able to run a notebook someone else has created. The difficulty of doing this ranges from easy to impossible. We'll look a little bit at some of the considerations in more detail in a moment. 
 
 ## What is a notebook?
 
@@ -82,23 +83,33 @@ What do we need to have in place to run a notebook. Some considerations:
 
 - Where is the code going to run? 
 - What data is required by the notebook?
-- How to get data in the enviroment where you are going to run your code? 
+- How to get data in the environment where you are going to run your code? 
 - What Python packages you will require?
 - Does the code in the notebook your trying to run require particular compute resources (RAM, CPU, GPU)?
 
-This might etiehr seem like quite a modest list of things to consider or way to onerous to bother with. 
+This might either seem like quite a modest list of things to consider or way to onerous to bother with. 
 
-## Running on someone else's computer 
+## Running on the cloud akak using someone else's computer 
 
-We'll focus on running the code on someone else machine i.e using a "cloud" option. There are definetly advantages to having Jupyter/Python setup on a personal machine but the process for setting this up will vary depending on your device, whether someone else controls your device etc. 
+We'll focus on running the code on someone else machine i.e using a "cloud" option. There are definitely advantages to having Jupyter/Python setup on a personal machine but the process for setting this up will vary depending on your device, whether someone else controls your device etc. 
 
 We will focus on two main options for running notebooks in the cloud and some of the considerations for what you need to use each. 
 
 ### Binder 
 
-#### What is Binder
+[Binder](https://mybinder.org/) is one popular option for allowing people to interact with Jupyter notebooks in the cloud. 
+
+#### What is Binder?
+
+> The Binder Project is an open community that makes it possible to create sharable, interactive, reproducible environments. 
+
+Binder consits of a number of different components. "BinderHub" is a tool that allows you to host a service for running notebooks in the cloud. "Mybinder" is a hosted version of this tool which is hosted with the aim of making science more reproducible. The mybinder tool can be used by anyone as a way of running notebooks without setting up any software on your own machine.'
 
 #### Binder on easy mode 
+
+
+
+
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
