@@ -220,3 +220,10 @@ nbdev - Develop, package and distribute Python packages to PyPI using Jupyter as
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 
 
+Jupyter Book - Build publication-quality books and documents from computational material.
+
+
+fastpages.fast.ai/
+
+RISE - Reveal.js Jupyter/IPython Slideshow.
+
