@@ -1,5 +1,7 @@
 # Introduction to Jupyter Notebooks: the weird and the wonderful
 
+[![DOI](https://zenodo.org/badge/368131278.svg)](https://zenodo.org/badge/latestdoi/368131278)
+
 Materials for a British Library, Digital Scholarship "hack and yack" workshop. 
 
 ## Aims 
