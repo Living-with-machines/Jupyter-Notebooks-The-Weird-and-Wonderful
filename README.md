@@ -214,6 +214,8 @@ If all of the above is old news to you and you are already confident in using bi
 
 For a fuller list of things you can do in notebooks there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list I've picked out some personal highlights with a short summary of what they are and why they might be useful in a GLAM setting. 
 
+For some specific GLAM examples of notebook see: [https://glam-workbench.net/more-glam-notebooks/]()
+
 ### Create a Python library using notebooks
 
 [`nbdev`](https://nbdev.fast.ai/):  Develop, package and distribute Python packages to PyPI using Jupyter as a Literate Programming environment.
@@ -228,7 +230,7 @@ There are some features which are worth highlighting:
 
 #### Why this could be useful in a library setting?
 
-Increasingly people who aren't software engineers are creating code in GLAM settings. This code could be used to quite specific tasks or might be one-time 'throw away' scripts. However, there will also be situations when code is written that could be useful in the future for yourself or others. The process of creating a Python package that can easily be installed by other people isn't always compeltly straightforward. This is where `nbdev` helps make this process easier. A particular advantge is that many people find it more confortable to develop and experiemnt with code in a notebook because you can inspect the outputs at various points and make small changes cell by cell. `nbdev` helps allows you to do this experimentation inside the same environemtn as the 'finished' code.
+Increasingly people who aren't software engineers are creating code in GLAM settings. This code could be used to quite specific tasks or might be one-time 'throw away' scripts. However, there will also be situations when code is written that could be useful in the future for yourself or others. The process of creating a Python package that can easily be installed by other people isn't always completely straightforward. This is where `nbdev` helps make this process easier. A particular advantge is that many people find it more comfortable to develop and experiment with code in a notebook because you can inspect the outputs at various points and make small changes cell by cell. `nbdev` helps allows you to do this experimentation inside the same environemtn as the 'finished' code.
 
 Testing software is something that is often skipped on projects because it's seen as too much effort. Because `nbdev` makes the process of writting tests quite simple it's is easier to add at least some basic tests to your code. 
 
@@ -236,13 +238,19 @@ A final reason why this approach might be partiocuarly nice in a GLAM setting is
 
 Some examples of `nbdev` in action:
 
-- `fastai`
-https://lvwerra.github.io/jupyterplot/
+-[`fastai`](https://docs.fast.ai/): The original use of `nbdev` was to create version 2 of the `fastai` deep learning library. It shows nbdev in usage for a relatively large project. 
+- [jupyterplot](https://lvwerra.github.io/jupyterplot/) is a nice example of a focused and releatiely small liobary being built in nbdev
 - From the Living with Machines project a small library [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats) for helping gather some GitHub usage data for reporting to our funder. 
-
-A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
+- A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
 
 ### Build interactivity into notebooks and create dashboards
+
+Although notebooks are already 'interactive' we someitmes may want to create something that either allows for interactivity that isn't dependent on peopel knowing how to change code. For example we might want to add a button that allows someone to upload a image or document into a notebook rather than them having to already know how to load the image and refernece it in the code. We may also want to create little interactive "GUI" like interfaces for working with data in a notebook. 
+
+
+
+
+There are a growing 
 
 What? 
 
@@ -266,6 +274,8 @@ https://panel.holoviz.org/getting_started/index.html
 
 
 ### Create and publish books, slides, and blogs from notebooks 
+
+http://developers.vam.ac.uk/notebooks/data-explorations/intro.html
 
 
 
