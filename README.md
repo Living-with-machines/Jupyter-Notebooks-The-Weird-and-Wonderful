@@ -76,11 +76,11 @@ The notebook is now shown in its 'raw' form [here](https://raw.githubusercontent
   },
 ```
 
-When we look at the raw version of the notebook, we can see a JSON file containing version bits of information, i.e. `cell_type`, `metadata`. This is important to have in mind because it shows that on its own, a notebook is basically a JSON file. We need to have quite a few other things in place to make it interactive. 
+When we look at the raw version of the notebook, we can see a JSON file containing version bits of information, i.e. `cell_type`, `metadata`. This is important to have in mind because it shows that on its own, a notebook is basically a JSON file. We need to have quite a few other things in place to make it interactive and execute to code inside the notebook. 
 
 What do we need to have in place to run a notebook? Some considerations:
 
-- Where is the code going to run? 
+- Where is the code going to run? We need some computer/system to run the Python code in the notebooks
 - What data is required by the notebook?
 - How to get data in the environment where you are going to run your code? 
 - What Python packages you will require?
@@ -135,7 +135,7 @@ Once mybinder has setup you should see something like:
 <img width="1158" alt="Screenshot 2021-05-18 at 13 03 35" src="https://user-images.githubusercontent.com/8995957/118647648-798cf800-b7d9-11eb-8ad3-5fbd43770161.png">
 
 
-Try running through the `late-style-PCA.ipynb` notebook. 
+Try running through the `late-style-PCA.ipynb` notebook:
 - What problems do you run into? 
 - Why do you run into these problems. 
 - Do you have ideas about how to fix these issues?
@@ -185,12 +185,12 @@ You may want to run a notebook on Colab which hasn't specifically been setup for
 - setup the environment: often notebooks will rely on Python packages that aren't included in the Colab environment. You will need to make sure these are installed in Colab
 - setup data: if the notebook your working with requires external data you will often need to setup some way of getting this data into Colab. 
 
-For each of these topics a notebook has been prepared that discusses how to tackle these two areas:
+#### Exercise:
+
+For each of these topics a notebook has been prepared that discusses how to tackle these topics. These hopefully give some sense of what to look out for and how to get a notebook running. 
 
 - environment notebook 
 - data notebook 
-
-
 
 
 ## Are notebooks bad?
