@@ -12,8 +12,9 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 ## Session format 
 
-Choose your own adventure! Depending on how familiar you are with the topic, you can choose to follow some of the links and explore to your heart's content. Alternatively, you can join a slightly more guided journey through some of the below material. 
+Choose your own adventure! Depending on how familiar you are with the topic, you can choose to go through the material independently. This page roughly starts with the basics and finishes with some more experimental approaches to using notebooks. 
 
+Alternatively, you can join a slightly more guided journey through some of the below material. 
 
 # What is a Jupyter notebook?
 
@@ -307,7 +308,7 @@ Some tools for doing this type of transformation or publishing
 
 - [V&A Data Explorations](http://developers.vam.ac.uk/notebooks/data-explorations/intro.html) an example of a Jupyterbook for aiding collection exploration
 - [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) an example of using a Jupyter Book for course materials
-- [https://covid19dashboards.com/]() an example of fastpages being used to create dashboards which automatically update
+- [https://covid19dashboards.com/]() an example of fastpages being used to create dashboards that automatically updates
 - [github.com/living-with-machines/github_stats_report]() an example showing `nbconvert` being used as a way of producing a report as an HTML page from a notebook. 
 
 
