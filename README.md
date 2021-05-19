@@ -12,7 +12,7 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 ## Session format 
 
-Choose your own adventure. Depending on how familiar you are with the topic you can choose to follow some of the links and explore to your hears cotent. Alternatrively you can join a slightly more guided journey thorough some of the sections of this. 
+Choose your own adventure! Depending on how familiar you are with the topic, you can choose to follow some of the links and explore to your heart's content. Alternatively, you can join a slightly more guided journey through some of the sections of this. 
 
 
 # What is a Jupyter notebook?
@@ -38,7 +38,7 @@ If we look at it in the GitHub web interface you'll see something like this:
 
 <img width="1297" alt="Screenshot 2021-05-17 at 14 50 54" src="https://user-images.githubusercontent.com/8995957/118499973-4f76ff80-b71f-11eb-874f-9556167f00f7.png">
 
-This looks like a webpage of sorts. However, this is a 'rendered' version of a notebook, i.e. a version that has been transformed somehow. As an example from another setting; if we look at some HTML for a heading, it looks like this in its raw form:
+This looks like a webpage of sorts. However, this is a 'rendered' version of a notebook, i.e. a version that has been transformed somehow. Using an example from another setting might illustrate this. If we look at some HTML for a heading, it looks like this in its raw form:
 
 ```html
 <h5>Heading 5</h5>
@@ -112,7 +112,7 @@ Since Mybinder is intended to help support reproducible research, it can be used
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
-If we follow one of the launch on binder links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [https://github.com/mchesterkadwell/bughunt-analysis]() we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
+If we follow one of the "launch on binder" links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [https://github.com/mchesterkadwell/bughunt-analysis]() we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
 
 #### Exercise: Binder on hard mode 
 
@@ -197,7 +197,7 @@ For each of these topics a notebook has been prepared that discusses how to tack
 
 ## Are notebooks bad?
 
-As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. It may be useful to be aware of these debates and some of the arguments but forward if you plan to work with notebook further. There may be occasions when some 'explains' to you that notebooks are terrible and you should stop using them and instead use their preferred coding environment/text editor/font etc 😜. 
+There is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are pretty well expressed in these two talks. It may be helpful to be aware of these debates and some of the arguments but forward if you plan to work with notebooks further. There may be occasions when some 'explains' to you that notebooks are terrible and you should stop using them and instead use their preferred coding environment/text editor/font etc 😜. 
 
 ### I don't like notebooks
 
@@ -210,9 +210,9 @@ As a slight aside there is a bit of a debate about when/whether notebooks are a 
 
 ## Weird and wonderful stuff you can  do with notebooks 
 
-If all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally this section introduces some weird and wonderful things we can do using notebooks that you could explore during this session. 
+Supposing all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally. In that case, this section introduces some weird and wonderful things we can do using notebooks you could explore. 
 
-For a fuller list of things you can do in notebooks there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list I've picked out some personal highlights with a short summary of what they are and why they might be useful in a GLAM setting. 
+For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
 
 For some specific GLAM examples of notebook see: [https://glam-workbench.net/more-glam-notebooks/]()
 
@@ -222,64 +222,64 @@ For some specific GLAM examples of notebook see: [https://glam-workbench.net/mor
 
 The `nbdev` tool allows you to develop python libraries/packages inside Jupyter Notebooks. These packages can then be uploaded onto `PyPI` or installed from a GitHub repository. 
 
-There are some features which are worth highlighting:
+There are some features that are worth highlighting:
 
-- Documentation is generated from the Jupyter notebooks, this allows you to write documentation alongside code and provide examples. Since the documentation is itself generated form a notebook people can run the code from the documentation if they want. 
-- Tests can be written inside notebooks. Tests are used in software development to try and ensure the code has the behaviour you want/expect.
+- Documentation is generated from the Jupyter notebooks; this allows you to write documentation alongside code and provide examples. Since the documentation is itself generated from a notebook, people can run the code from the documentation. 
+- Tests can be written inside notebooks. Tests are used in software development to ensure that the code has the behaviour you want/expect.
 - A lot of the 'boilerplate' work that has to be done to create Python packages is automated using `nbdev`.
 
 #### Why this could be useful in a library setting?
 
-Increasingly people who aren't software engineers are creating code in GLAM settings. This code could be used to quite specific tasks or might be one-time 'throw away' scripts. However, there will also be situations when code is written that could be useful in the future for yourself or others. The process of creating a Python package that can easily be installed by other people isn't always completely straightforward. This is where `nbdev` helps make this process easier. A particular advantge is that many people find it more comfortable to develop and experiment with code in a notebook because you can inspect the outputs at various points and make small changes cell by cell. `nbdev` helps allows you to do this experimentation inside the same environemtn as the 'finished' code.
+Increasingly people who aren't software engineers are creating code in GLAM settings. This code could be used for quite specific tasks or might be one-time 'throw away' scripts. However, there will also be situations when code is written that could be useful in the future for yourself or others. Creating a Python package that can easily be installed by other people isn't always entirely straightforward. This is where `nbdev` helps make this process easier. Many people find it more comfortable developing and experimenting with code in a notebook because you can inspect the outputs at various points and make small changes cell by cell. `nbdev` helps allows you to do this experimentation inside the same environment as the 'finished' code.
 
-Testing software is something that is often skipped on projects because it's seen as too much effort. Because `nbdev` makes the process of writting tests quite simple it's is easier to add at least some basic tests to your code. 
+Testing software is something that is often skipped on projects because it's seen as too much effort. Because `nbdev` makes writing tests quite simple, it's easier to add at least some basic tests to your code. 
 
-A final reason why this approach might be partiocuarly nice in a GLAM setting is the ease of documenting the libraries and also showing the process of development of the code. This allows the possibility of including some 'pedagody' or teaching inside the library so people are not abl to use the library/code directly but also see how the library approached problems. 
+A final reason this approach might be particularly lovely in a GLAM setting is the ease of documenting the libraries and showing the development of the code. This allows the possibility of including some 'pedagogy' or teaching inside the library. People cannot only use the library/code directly but also see how the library approached problems. 
 
 Some examples of `nbdev` in action:
 
 -[`fastai`](https://docs.fast.ai/): The original use of `nbdev` was to create version 2 of the `fastai` deep learning library. It shows nbdev in usage for a relatively large project. 
-- [jupyterplot](https://lvwerra.github.io/jupyterplot/) is a nice example of a focused and releatiely small liobary being built in nbdev
+- [jupyterplot](https://lvwerra.github.io/jupyterplot/) is a nice example of a focused and relatively small library being built in nbdev
 - From the Living with Machines project a small library [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats) for helping gather some GitHub usage data for reporting to our funder. 
 - A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
 
 ### Build interactivity into notebooks and create dashboards
 
-Although notebooks are already 'interactive' we somteimes may want to create something that either allows for interactivity that isn't dependent on peopel knowing how to change code. For example we might want to add a button that allows someone to upload a image or document into a notebook rather than them having to already know how to load the image and refernece it in the code. We may also want to create little interactive "GUI" like interfaces for working with data in a notebook. For example we might add a dropdown interface for going through a directory of images:
+Although notebooks are already 'interactive', we sometimes may want to create something that either allows for interactivity dependent on people knowing how to change code. For example, we might want to add a button that allows someone to upload an image or document into a notebook rather than already know how to load the image and reference it in the code. We may also want to create a little interactive "GUI" like interfaces for working with data in a notebook. For example, we might add a dropdown interface for going through a directory of images:
 
 <img width="418" alt="Screenshot 2021-05-19 at 14 45 59" src="https://user-images.githubusercontent.com/8995957/118823576-fc34b680-b8b0-11eb-91df-ce329cf9f7b4.png">
 
 
-There are a growing number of tools for adding this kind of interactivty to notebooks, from small 'widgets' to add sliders or dropdowns to notebooks to tools that are intended to build full dashboards from Jupyter notebooks. 
+There are a growing number of tools for adding this kind of interactivity to notebooks, from small 'widgets' to add sliders or dropdowns to notebooks to tools that are intended to build full dashboards from Jupyter notebooks. 
 
 #### Why this could be useful in a library setting?
 
-Creating new ways of interacting and working with collections is becominmg more important as more data is digisted and collection data/metadta are made available as data. Although notebooks offer one way of makign access to collections easier it still assumes some basic knowelsfge of coding. Adding some 'widgets' to add interactivity to these notebooks could open up these notebooks as 'interfaces' to a broader audiences. 
+Creating new ways of interacting and working with collections is becoming more critical as more collections are available digitally. Although notebooks offer one way of making access to collections easier, it still assumes some basic coding knowledge. Adding some 'widgets' to add interactivity to these notebooks could open up these notebooks as 'interfaces' to a broader audience. 
 
-Building full dashboards or tools for interacting with colelctiosn is a majro undertaking. There often won't be the resource available to build 'proper' interaces to a collection but a more modest approach could use dahsboards created out of jupyter notebvooks. Whilst these might not replace a fully feartuyred interface developed as a beskope solution, it also won't require the same resources to create. An example of a dashboard created using one of these tools gives a sense of the kind of things that can be developed:
+Building full dashboards or tools for interacting with collections is a major undertaking. There is often no resource available to build 'proper' interfaces to a collection, but a more modest approach could use dashboards created out of Jupyter notebooks. Whilst these might not replace a fully-featured interface developed as a bespoke solution, they also won't require the same resources to create. An example of a dashboard created using one of these tools gives a sense of the kind of things that can be developed:
 
 <img width="1361" alt="Screenshot 2021-05-19 at 14 59 16" src="https://user-images.githubusercontent.com/8995957/118825686-ce507180-b8b2-11eb-9817-e5ff853f80b8.png">
 
-https://nyc-taxi.pyviz.demo.anaconda.com/dashboard
+[Source](https://nyc-taxi.pyviz.demo.anaconda.com/dashboard)
 
 #### Tools for adding interactivyt 
 
-Some tools for adding interactivity include
+Some tools for adding interactivity include:
 
 - [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/): offers various widgets for notebooks
 - [Voilà](https://voila.readthedocs.io/en/stable/using.html): a tool for creating apps from notebooks
-- [Panel](https://panel.holoviz.org/): a set of tools focused on helping create dashboards or intewractive components
+- [Panel](https://panel.holoviz.org/): a set of tools focused on helping create dashboards or interactive components
 - [Gradio](https://www.gradio.app/): Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code. Integrate directly into your Python notebook, or share a link with anyone.
 
 #### Examples
 
 - A notebook that includes some interactive elements with a focus on computer vision [https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks]()
-- An example of notebook that has been turned into a web application using voila: [https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb]()
-- 
+- An example of a notebook that has been turned into a web application using voila: [https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb]()
+
 
 #### Things to explore 
 
-If you want to get stuck into htis topis thesr getting started pages and examples will give you a sense of what is possible: 
+If you want to get stuck into this topis these getting started pages, and examples will give you a sense of what is possible: 
 
 - https://www.gradio.app/getting_started 
 - https://panel.holoviz.org/getting_started/index.html
@@ -287,37 +287,29 @@ If you want to get stuck into htis topis thesr getting started pages and example
 
 ### Create and publish books, slides, and blogs from notebooks 
 
-The final awesome things we'll cover is various ways of "publishing" a notebook. Obvsiopusly we may just publish a notebook 'as is' but there are a growing number of tools that allow for transformgin notebooks into other formats. 
+The final awesome things we'll cover are various ways of "publishing" a notebook. Obviously, we may just publish a notebook "as is" but a growing number of tools allow for transforming notebooks into other formats. 
 
 #### Why this could be useful in a library setting?
 
-An obvious use case is for publishing tutorials and other teaching amterials in a more 'polished' format. However there are also exciting opperuntities to utilise the code inside notebooks wjhilst presentgin the final product in a way that 'hides' the code. This offers exciting oppertuntites for htings like:
+An obvious use case is for publishing tutorials and other teaching materials in a more 'polished' format. However, there are also exciting opportunities to utilise the code inside notebooks whilst presenting the final product in a way that 'hides' the code. This offers exciting opportunities for things like:
 
-- automatically upating blog posts 
-- collections guides fo rdigital material which can be opened in a notebook for those includned but appear as standard html 
+- automatically updating blog posts 
+- collections guides for digital material which are underpinned by code working with those collections but are displayed as pretty HTML 
 - slides can be built directly from notebooks.
 
 Some tools for doing this type of transformation or publishing
 
 - [`nbconvert`](https://nbconvert.readthedocs.io/en/latest/): a Swiss army knife for converting notebooks to other formats
-- [`Jupyter book`](jupyterbook.org/): Jupyter Book is an open source project for building beautiful, publication-quality books and documents from computational material. 
+- [`Jupyter book`](jupyterbook.org/): Jupyter Book is an open-source project for building beautiful, publication-quality books and documents from computational material. 
 - [`fastpages`](https://github.com/fastai/fastpages): fastpages uses GitHub Actions to simplify the process of creating Jekyll blog posts on GitHub Pages from a variety of input formats.
 - [`rise`](https://github.com/damianavila/RISE): RISE allows you to instantly turn your Jupyter Notebooks into a slideshow. No out-of-band conversion is needed, switch from jupyter notebook to a live reveal.js-based slideshow in a single keystroke, and back.
 
 
 #### Examples:
 
-
-http://developers.vam.ac.uk/notebooks/data-explorations/intro.html
-
-https://covid19dashboards.com/
-
-
-Jupyter Book - Build publication-quality books and documents from computational material.
+- [V&A Data Explorations](http://developers.vam.ac.uk/notebooks/data-explorations/intro.html) an example of a Jupyterbook for aiding collection exploration
+- [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) an example of using a Jupyter Book for course materials
+- [https://covid19dashboards.com/]() an example of fastpages being used to create dashboards which automatically update
+- [github.com/living-with-machines/github_stats_report]() an example showing `nbconvert` being used as a way of producing a report as an HTML page from a notebook. 
 
 
-fastpages.fast.ai/
-
-RISE - Reveal.js Jupyter/Python Slideshow.
-
-cnbconvert - Convert Notebooks to other formats. https://livingwithmachines.ac.uk/using-github-actions-and-jupyter-notebooks-to-track-living-with-machines-github-traffic/
