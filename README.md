@@ -247,6 +247,7 @@ Some examples of `nbdev` in action:
 
 Although notebooks are already 'interactive' we someitmes may want to create something that either allows for interactivity that isn't dependent on peopel knowing how to change code. For example we might want to add a button that allows someone to upload a image or document into a notebook rather than them having to already know how to load the image and refernece it in the code. We may also want to create little interactive "GUI" like interfaces for working with data in a notebook. 
 
+<img width="418" alt="Screenshot 2021-05-19 at 14 45 59" src="https://user-images.githubusercontent.com/8995957/118823576-fc34b680-b8b0-11eb-91df-ce329cf9f7b4.png">
 
 
 
