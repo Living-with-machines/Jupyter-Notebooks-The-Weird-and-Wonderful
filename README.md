@@ -261,35 +261,28 @@ Building full dashboards or tools for interacting with colelctiosn is a majro un
 <img width="1361" alt="Screenshot 2021-05-19 at 14 59 16" src="https://user-images.githubusercontent.com/8995957/118825686-ce507180-b8b2-11eb-9817-e5ff853f80b8.png">
 
 
+#### Tools for adding interactivyt 
 
+Some tools for adding interactivity include
 
+- [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/): offers various widgets for notebooks
+- [Voilà](https://voila.readthedocs.io/en/stable/using.html): a tool for creating apps from notebooks
+- [Panel](https://panel.holoviz.org/): a set of tools focused on helping create dashboards or intewractive components
+- [Gradio](https://www.gradio.app/): Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code. Integrate directly into your Python notebook, or share a link with anyone.
 
-
-
-- [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/)
-- [Voilà](https://voila.readthedocs.io/en/stable/using.html)
-- [Panel](https://panel.holoviz.org/) 
-- 
-- [Gradio](https://www.gradio.app/getting_started) 
-
-Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
-panel 
-
-Gradio https://www.gradio.app/getting_started 
-
-Why?
-
-Examples? 
+#### Examples
 
 - A notebook that includes some interactive elements with a focus on computer vision [https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks]()
 - An example of notebook that has been turned into a web application using voila: [https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb]()
+- 
 
-#### Exercises to explore 
+#### Things to explore 
 
-https://www.gradio.app/getting_started 
-https://panel.holoviz.org/getting_started/index.html
-https://awesome-panel.org/ 
-https://awesome-panel.readthedocs.io/en/latest/_copy_of_project_root/README.html 
+If you want to get stuck into htis topis thesr getting started pages and examples will give you a sense of what is possible: 
+
+- https://www.gradio.app/getting_started 
+- https://panel.holoviz.org/getting_started/index.html
+- https://awesome-panel.org/ 
 
 ### Create and publish books, slides, and blogs from notebooks 
 
