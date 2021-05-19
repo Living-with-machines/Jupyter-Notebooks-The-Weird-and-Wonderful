@@ -286,9 +286,30 @@ If you want to get stuck into htis topis thesr getting started pages and example
 
 ### Create and publish books, slides, and blogs from notebooks 
 
+The final awesome things we'll cover is various ways of "publishing" a notebook. Obvsiopusly we may just publish a notebook 'as is' but there are a growing number of tools that allow for transformgin notebooks into other formats. 
+
+#### Why this could be useful in a library setting?
+
+An obvious use case is for publishing tutorials and other teaching amterials in a more 'polished' format. However there are also exciting opperuntities to utilise the code inside notebooks wjhilst presentgin the final product in a way that 'hides' the code. This offers exciting oppertuntites for htings like:
+
+- automatically upating blog posts 
+- collections guides fo rdigital material which can be opened in a notebook for those includned but appear as standard html 
+- slides can be built directly from notebooks.
+
+Some tools for doing this type of transformation or publishing
+
+- [`nbconvert`](https://nbconvert.readthedocs.io/en/latest/): a Swiss army knife for converting notebooks to other formats
+- [`Jupyter book`](jupyterbook.org/): Jupyter Book is an open source project for building beautiful, publication-quality books and documents from computational material. 
+- [`fastpages`](https://github.com/fastai/fastpages): fastpages uses GitHub Actions to simplify the process of creating Jekyll blog posts on GitHub Pages from a variety of input formats.
+- [`rise`](https://github.com/damianavila/RISE): RISE allows you to instantly turn your Jupyter Notebooks into a slideshow. No out-of-band conversion is needed, switch from jupyter notebook to a live reveal.js-based slideshow in a single keystroke, and back.
+
+
+#### Examples:
+
+
 http://developers.vam.ac.uk/notebooks/data-explorations/intro.html
 
-
+https://covid19dashboards.com/
 
 
 Jupyter Book - Build publication-quality books and documents from computational material.
@@ -296,6 +317,6 @@ Jupyter Book - Build publication-quality books and documents from computational 
 
 fastpages.fast.ai/
 
-RISE - Reveal.js Jupyter/IPython Slideshow.
+RISE - Reveal.js Jupyter/Python Slideshow.
 
-nbconvert - Convert Notebooks to other formats. https://livingwithmachines.ac.uk/using-github-actions-and-jupyter-notebooks-to-track-living-with-machines-github-traffic/
+cnbconvert - Convert Notebooks to other formats. https://livingwithmachines.ac.uk/using-github-actions-and-jupyter-notebooks-to-track-living-with-machines-github-traffic/
