@@ -242,25 +242,32 @@ https://lvwerra.github.io/jupyterplot/
 
 A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
 
-### Build interactive notebooks and dashboard
+### Build interactivity into notebooks and create dashboards
 
 What? 
+
+ipywdigets
+Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
+panel 
+
+Gradio https://www.gradio.app/getting_started 
 
 Why?
 
 Examples? 
 
+- A notebook that includes some interactive elements with a focus on computer vision [https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks]()
+- An example of notebook that has been turned into a web application using voila: [https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb]()
+
+#### Exercises to explore 
+
+https://www.gradio.app/getting_started 
+https://panel.holoviz.org/getting_started/index.html
 
 
-https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks
-
-https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb
+### Create and publish books, slides, and blogs from notebooks 
 
 
-
-Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
-
-### Create and publish books, slides, and blogs
 
 
 Jupyter Book - Build publication-quality books and documents from computational material.
