@@ -12,6 +12,8 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 ## Session format 
 
+Choose your own adventure. Depending on how familiar you are with the topic you can choose to follow some of the links and explore to your hears cotent. Alternatrively you can join a slightly more guided journey thorough some of the sections of this. 
+
 
 # What is a Jupyter notebook?
 
