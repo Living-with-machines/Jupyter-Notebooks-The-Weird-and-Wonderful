@@ -175,7 +175,7 @@ An alternative option to Binder is Google Colab. This is also a hosted notebook 
 
 #### Colab on easy mode 
 
-Colab is also increasingly being used as a way of making notebooks accessible for others to work with. This means that alongside a 'run on binder' option you will sometimes see a "open in colab" option. When you see this *often* the authors of the notebook will have tried to set up the notebook in a way which doesn't require additonal work for you to get it to run. Some examples of this:
+Colab is also increasingly being used as a way of making notebooks accessible for others to work with. This means that alongside a 'run on binder' option you will sometimes see a "open in colab" option. When you see this *often* the authors of the notebook will have tried to set up the notebook in a way which doesn't require additional work for you to get it to run. Some examples of this:
 
 - https://github.com/BL-Labs/Jupyter-notebooks-projects-using-BL-Sources
 - https://github.com/Living-with-machines/Computer-Vision-for-the-Humanities-workshop
@@ -194,8 +194,11 @@ For each of these topics a notebook has been prepared that discusses how to tack
 - data notebook 
 
 
+
+
 ## Are notebooks bad?
-As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. It may be useful to be aware of these debates and some of the arguments but forward if you plan to work with notebook further. There may be occasions when some 'explains' to you that notebooks are terrible and you should stop using them and instead use their preffered coding envrioment/text editor/font etc 😜. 
+
+As a slight aside there is a bit of a debate about when/whether notebooks are a good idea. These two 'opposing' views are quite well expressed in these two talks. It may be useful to be aware of these debates and some of the arguments but forward if you plan to work with notebook further. There may be occasions when some 'explains' to you that notebooks are terrible and you should stop using them and instead use their preferred coding environment/text editor/font etc 😜. 
 
 ### I don't like notebooks
 
@@ -210,12 +213,45 @@ As a slight aside there is a bit of a debate about when/whether notebooks are a 
 
 If all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally this section introduces some weird and wonderful things we can do using notebooks that you could explore during this session. 
 
-For a fuller list of things you can do in notebooks there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list I've picked out some personal highlights with a short summary of what they are and why they might be paerticuarly useful in a GLAM setting. 
+For a fuller list of things you can do in notebooks there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list I've picked out some personal highlights with a short summary of what they are and why they might be useful in a GLAM setting. 
 
 ### Create a Python library using notebooks
-nbdev - Develop, package and distribute Python packages to PyPI using Jupyter as a Literate Programing environment.
 
-### Build an interactive dashboard from notebooks
+[`nbdev`](https://nbdev.fast.ai/):  Develop, package and distribute Python packages to PyPI using Jupyter as a Literate Programming environment.
+
+The `nbdev` tool allows you to develop python libraries/packages inside Jupyter Notebooks. These packages can then be uploaded onto `PyPI` or installed from a GitHub repository. 
+
+There are some features which are worth highlighting:
+
+- Documentation is generated from the Jupyter notebooks, this allows you to write documentation alongside code and provide examples. Since the documentation is itself generated form a notebook people can run the code from the documentation if they want. 
+- Tests can be written inside notebooks. Tests are used in software development to try and ensure the code has the behaviour you want/expect.
+- A lot of the 'boilerplate' work that has to be done to create Python packages is automated using `nbdev`.
+
+#### Why this could be useful in a library setting?
+
+Increasingly people who aren't software engineers are creating code in GLAM settings. This code could be used to quite specific tasks or might be one-time 'throw away' scripts. However, there will also be situations when code is written that could be useful in the future for yourself or others. The process of creating a Python package that can easily be installed by other people isn't always compeltly straightforward. This is where `nbdev` helps make this process easier. A particular advantge is that many people find it more confortable to develop and experiemnt with code in a notebook because you can inspect the outputs at various points and make small changes cell by cell. `nbdev` helps allows you to do this experimentation inside the same environemtn as the 'finished' code.
+
+Testing software is something that is often skipped on projects because it's seen as too much effort. Because `nbdev` makes the process of writting tests quite simple it's is easier to add at least some basic tests to your code. 
+
+A final reason why this approach might be partiocuarly nice in a GLAM setting is the ease of documenting the libraries and also showing the process of development of the code. This allows the possibility of including some 'pedagody' or teaching inside the library so people are not abl to use the library/code directly but also see how the library approached problems. 
+
+Some examples of `nbdev` in action:
+
+- `fastai`
+https://lvwerra.github.io/jupyterplot/
+- From the Living with Machines project a small library [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats) for helping gather some GitHub usage data for reporting to our funder. 
+
+A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
+
+### Build interactive notebooks and dashboard
+
+What? 
+
+Why?
+
+Examples? 
+
+
 
 https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks
 
@@ -224,6 +260,8 @@ https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2F
 
 
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
+
+### Create and publish books, slides, and blogs
 
 
 Jupyter Book - Build publication-quality books and documents from computational material.
