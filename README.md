@@ -245,17 +245,33 @@ Some examples of `nbdev` in action:
 
 ### Build interactivity into notebooks and create dashboards
 
-Although notebooks are already 'interactive' we someitmes may want to create something that either allows for interactivity that isn't dependent on peopel knowing how to change code. For example we might want to add a button that allows someone to upload a image or document into a notebook rather than them having to already know how to load the image and refernece it in the code. We may also want to create little interactive "GUI" like interfaces for working with data in a notebook. 
+Although notebooks are already 'interactive' we somteimes may want to create something that either allows for interactivity that isn't dependent on peopel knowing how to change code. For example we might want to add a button that allows someone to upload a image or document into a notebook rather than them having to already know how to load the image and refernece it in the code. We may also want to create little interactive "GUI" like interfaces for working with data in a notebook. For example we might add a dropdown interface for going through a directory of images:
 
 <img width="418" alt="Screenshot 2021-05-19 at 14 45 59" src="https://user-images.githubusercontent.com/8995957/118823576-fc34b680-b8b0-11eb-91df-ce329cf9f7b4.png">
 
 
+There are a growing number of tools for adding this kind of interactivty to notebooks, from small 'widgets' to add sliders or dropdowns to notebooks to tools that are intended to build full dashboards from Jupyter notebooks. 
 
-There are a growing 
+#### Why this could be useful in a library setting?
 
-What? 
+Creating new ways of interacting and working with collections is becominmg more important as more data is digisted and collection data/metadta are made available as data. Although notebooks offer one way of makign access to collections easier it still assumes some basic knowelsfge of coding. Adding some 'widgets' to add interactivity to these notebooks could open up these notebooks as 'interfaces' to a broader audiences. 
 
-ipywdigets
+Building full dashboards or tools for interacting with colelctiosn is a majro undertaking. There often won't be the resource available to build 'proper' interaces to a collection but a more modest approach could use dahsboards created out of jupyter notebvooks. Whilst these might not replace a fully feartuyred interface developed as a beskope solution, it also won't require the same resources to create. An example of a dashboard created using one of these tools gives a sense of the kind of things that can be developed:
+
+<img width="1361" alt="Screenshot 2021-05-19 at 14 59 16" src="https://user-images.githubusercontent.com/8995957/118825686-ce507180-b8b2-11eb-9817-e5ff853f80b8.png">
+
+
+
+
+
+
+
+- [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/)
+- [Voilà](https://voila.readthedocs.io/en/stable/using.html)
+- [Panel](https://panel.holoviz.org/) 
+- 
+- [Gradio](https://www.gradio.app/getting_started) 
+
 Voila - Rendering of live Jupyter Notebooks with interactive widgets, allowing dashboarding based on Jupyter Notebooks
 panel 
 
@@ -272,7 +288,8 @@ Examples?
 
 https://www.gradio.app/getting_started 
 https://panel.holoviz.org/getting_started/index.html
-
+https://awesome-panel.org/ 
+https://awesome-panel.readthedocs.io/en/latest/_copy_of_project_root/README.html 
 
 ### Create and publish books, slides, and blogs from notebooks 
 
