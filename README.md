@@ -21,7 +21,7 @@ If you don't know what a Jupyter notebook is or are only vaguely familiar you ma
 
 - [The official Jupyter page](https://jupyter.org/)
 - [The official documentation](https://jupyter.org/documentation)
-- [A Programming Historian lesson (focus on the literate computing section)](https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing)
+- [A Programming Historian lesson](https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing) (focus on the literate computing section)
 - What is Jupyter Notebook? [Youtube video](https://youtu.be/q_BzsPxwLOE)
 
 
