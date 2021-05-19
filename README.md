@@ -12,9 +12,6 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 ## Session format 
 
-### Contents
-
-
 
 # What is a Jupyter notebook?
 
