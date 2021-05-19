@@ -1,6 +1,6 @@
 # Introduction to Jupyter Notebooks: the weird and the wonderful
 
-Materials for British Library "hack and yack" workshop
+Materials for a British Library, Digital Scholarship "hack and yack" workshop. 
 
 ## Aims 
 
@@ -8,7 +8,7 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 - Understand what a Jupyter notebook is and why they are used 
 - How to (try) running notebooks someone else has created
-- Introduce some weird stuff you can do with notebooks
+- Introduce some weird/wonderful stuff you can do with notebooks
 
 ## Session format 
 
