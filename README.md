@@ -260,6 +260,7 @@ Building full dashboards or tools for interacting with colelctiosn is a majro un
 
 <img width="1361" alt="Screenshot 2021-05-19 at 14 59 16" src="https://user-images.githubusercontent.com/8995957/118825686-ce507180-b8b2-11eb-9817-e5ff853f80b8.png">
 
+https://nyc-taxi.pyviz.demo.anaconda.com/dashboard
 
 #### Tools for adding interactivyt 
 
