@@ -315,3 +315,4 @@ Some tools for doing this type of transformation or publishing
 - [github.com/living-with-machines/github_stats_report]() an example showing `nbconvert` being used as a way of producing a report as an HTML page from a notebook. 
 
 
+> Credit: This project, funded by the UK Research and Innovation (UKRI) Strategic Priority Fund, is a multidisciplinary collaboration delivered by the Arts and Humanities Research Council (AHRC), with The Alan Turing Institute, the British Library and the Universities of Cambridge, East Anglia, Exeter, and Queen Mary University of London.
