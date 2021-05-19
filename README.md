@@ -190,9 +190,10 @@ You may want to run a notebook on Colab which hasn't specifically been setup for
 
 For each of these topics a notebook has been prepared that discusses how to tackle these topics. These hopefully give some sense of what to look out for and how to get a notebook running. 
 
-- environment notebook 
-- data notebook 
+- [environment notebook](https://colab.research.google.com/drive/1dGe37rIgQaiiqCpPETpk7wnjvL2scW7D?usp=sharing)
+- [data notebook](https://colab.research.google.com/drive/1U6SAx0fsdsxixVBPYakL5E_WIixgvD4t?usp=sharing)
 
+You will need a Google account to run these notebooks. 
 
 ## Are notebooks bad?
 
