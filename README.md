@@ -12,7 +12,7 @@ Depending on your starting point, you may focus only on a particular aim during 
 
 ## Session format 
 
-Choose your own adventure! Depending on how familiar you are with the topic, you can choose to follow some of the links and explore to your heart's content. Alternatively, you can join a slightly more guided journey through some of the sections of this. 
+Choose your own adventure! Depending on how familiar you are with the topic, you can choose to follow some of the links and explore to your heart's content. Alternatively, you can join a slightly more guided journey through some of the below material. 
 
 
 # What is a Jupyter notebook?
@@ -107,8 +107,6 @@ Binder consits of a number of different components. "BinderHub" is a tool that a
 #### Binder on easy mode 
 
 Since Mybinder is intended to help support reproducible research, it can be used to make accessing notebooks very easy. However, this requires some effort on the notebook author. Often if someone has gone to this effort, you will see something like this on the GitHub repository for the notebooks(s):
-
-
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
