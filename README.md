@@ -190,9 +190,10 @@ You may want to run a notebook on Colab which hasn't specifically been setup for
 
 For each of these topics a notebook has been prepared that discusses how to tackle these topics. These hopefully give some sense of what to look out for and how to get a notebook running. 
 
-- environment notebook 
-- data notebook 
+- [environment notebook](https://colab.research.google.com/drive/1dGe37rIgQaiiqCpPETpk7wnjvL2scW7D?usp=sharing)
+- [data notebook](https://colab.research.google.com/drive/1U6SAx0fsdsxixVBPYakL5E_WIixgvD4t?usp=sharing)
 
+You will need a Google account to run these notebooks. 
 
 ## Are notebooks bad?
 
@@ -237,9 +238,9 @@ A final reason this approach might be particularly lovely in a GLAM setting is t
 
 Some examples of `nbdev` in action:
 
--[`fastai`](https://docs.fast.ai/): The original use of `nbdev` was to create version 2 of the `fastai` deep learning library. It shows nbdev in usage for a relatively large project. 
-- [jupyterplot](https://lvwerra.github.io/jupyterplot/) is a nice example of a focused and relatively small library being built in nbdev
-- From the Living with Machines project a small library [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats) for helping gather some GitHub usage data for reporting to our funder. 
+- [`fastai`](https://docs.fast.ai/): The original use of `nbdev` was to create version 2 of the `fastai` deep learning library. It shows nbdev in usage for a relatively large project. 
+- [`jupyterplot`](https://lvwerra.github.io/jupyterplot/) is a nice example of a focused and relatively small library being built in nbdev
+- From the Living with Machines project, a small library [`gh_orgstats`](https://github.com/Living-with-machines/gh_orgstats) for helping gather some GitHub usage data for reporting to our funder. 
 - A [blog post](https://medium.com/overstoryai/how-nbdev-helps-us-structure-our-data-science-workflow-in-jupyter-notebooks-9cf6081b051f) discussing the usage of fastai. 
 
 ### Build interactivity into notebooks and create dashboards
