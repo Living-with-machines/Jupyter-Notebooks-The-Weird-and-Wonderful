@@ -216,7 +216,7 @@ Supposing all of the above is old news to you and you are already confident in u
 
 For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) list that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
 
-For some specific GLAM examples of notebook being used for various things see: [https://glam-workbench.net/more-glam-notebooks/]()
+For some specific GLAM examples of notebook being used for various things see: [GLAM Jupyter resources](https://glam-workbench.net/more-glam-notebooks/)
 
 ### Create a Python library using notebooks
 
@@ -275,8 +275,8 @@ Some tools for adding interactivity include:
 
 #### Examples
 
-- A notebook that includes some interactive elements with a focus on computer vision [https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks]()
-- An example of a notebook that has been turned into a web application using voila: [https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb]()
+- A notebook that includes some interactive elements with a focus on computer vision: [Working with maps at scale using Computer Vision and Jupyter notebooks](https://github.com/Living-with-machines/maps-at-scale-using-computer-vision-and-jupyter-notebooks)
+- An example of a notebook that has been turned into a web application using voila: [bear_voila](https://mybinder.org/v2/gh/fastai/bear_voila/master?urlpath=%2Fvoila%2Frender%2Fbear_classifier.ipynb)
 
 
 #### Things to explore 
@@ -302,7 +302,7 @@ An obvious use case is for publishing tutorials and other teaching materials in 
 Some tools for doing this type of transformation or publishing
 
 - [`nbconvert`](https://nbconvert.readthedocs.io/en/latest/): a Swiss army knife for converting notebooks to other formats
-- [`Jupyter book`](jupyterbook.org/): Jupyter Book is an open-source project for building beautiful, publication-quality books and documents from computational material. 
+- [`Jupyter book`](https://jupyterbook.org/): Jupyter Book is an open-source project for building beautiful, publication-quality books and documents from computational material. 
 - [`fastpages`](https://github.com/fastai/fastpages): fastpages uses GitHub Actions to simplify the process of creating Jekyll blog posts on GitHub Pages from a variety of input formats.
 - [`rise`](https://github.com/damianavila/RISE): RISE allows you to instantly turn your Jupyter Notebooks into a slideshow. No out-of-band conversion is needed, switch from jupyter notebook to a live reveal.js-based slideshow in a single keystroke, and back.
 
@@ -311,8 +311,8 @@ Some tools for doing this type of transformation or publishing
 
 - [V&A Data Explorations](http://developers.vam.ac.uk/notebooks/data-explorations/intro.html) an example of a Jupyterbook for aiding collection exploration
 - [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) an example of using a Jupyter Book for course materials
-- [https://covid19dashboards.com/]() an example of fastpages being used to create dashboards that automatically updates
-- [github.com/living-with-machines/github_stats_report]() an example showing `nbconvert` being used as a way of producing a report as an HTML page from a notebook. 
+- [Covid19dashboards](https://covid19dashboards.com/) an example of fastpages being used to create dashboards that automatically updates
+- [GitHub Stats report](https://github.com/living-with-machines/github_stats_report) an example showing `nbconvert` being used as a way of producing a report as an HTML page from a notebook. 
 
 
 > Credit: This project, funded by the UK Research and Innovation (UKRI) Strategic Priority Fund, is a multidisciplinary collaboration delivered by the Arts and Humanities Research Council (AHRC), with The Alan Turing Institute, the British Library and the Universities of Cambridge, East Anglia, Exeter, and Queen Mary University of London.
