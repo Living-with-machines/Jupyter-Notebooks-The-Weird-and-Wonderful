@@ -26,7 +26,7 @@ If you don't know what a Jupyter notebook is or are only vaguely familiar you ma
 - [The official documentation](https://jupyter.org/documentation)
 - [A Programming Historian lesson](https://programminghistorian.org/en/lessons/jupyter-notebooks#literate-computing) (focus on the literate computing section)
 - What is Jupyter Notebook? [Youtube video](https://youtu.be/q_BzsPxwLOE)
-
+- [LIBER Webinar: Setting Up A GLAM Workbench In Your Library](https://youtu.be/LXk60YDdaMA?t=1249) discusses Jupyter notebooks and gives a general introduction
 
 ## How to try running notebooks someone else has created?
 
