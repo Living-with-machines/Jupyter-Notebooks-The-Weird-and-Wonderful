@@ -113,7 +113,7 @@ Since Mybinder is intended to help support reproducible research, it can be used
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
-If we follow one of the "launch on binder" links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [https://github.com/mchesterkadwell/bughunt-analysis]() we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
+If we follow one of the "launch on binder" links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [bughunt-analysis](https://github.com/mchesterkadwell/bughunt-analysis) we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
 
 #### Exercise: Binder on hard mode 
 
