@@ -216,7 +216,7 @@ Supposing all of the above is old news to you and you are already confident in u
 
 For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) list that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
 
-For some specific GLAM examples of notebook being used for various things see: [https://glam-workbench.net/more-glam-notebooks/]()
+For some specific GLAM examples of notebook being used for various things see: [GLAM Jupyter resources](https://glam-workbench.net/more-glam-notebooks/)
 
 ### Create a Python library using notebooks
 
