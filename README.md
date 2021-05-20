@@ -214,9 +214,9 @@ There is a bit of a debate about when/whether notebooks are a good idea. These t
 
 Supposing all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally. In that case, this section introduces some weird and wonderful things we can do using notebooks you could explore. 
 
-For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
+For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) list that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
 
-For some specific GLAM examples of notebook see: [https://glam-workbench.net/more-glam-notebooks/]()
+For some specific GLAM examples of notebook being used for various things see: [https://glam-workbench.net/more-glam-notebooks/]()
 
 ### Create a Python library using notebooks
 
