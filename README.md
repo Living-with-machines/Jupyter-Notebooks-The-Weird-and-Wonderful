@@ -113,7 +113,7 @@ Since Mybinder is intended to help support reproducible research, it can be used
 
 <img width="888" alt="Screenshot 2021-05-18 at 10 04 39" src="https://user-images.githubusercontent.com/8995957/118623851-8bae6c80-b7c0-11eb-9de2-b1f67d0a5516.png">
 
-If we follow one of the "launch on binder" links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [https://github.com/mchesterkadwell/bughunt-analysis]() we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
+If we follow one of the "launch on binder" links, Binder will begin setting up the required infrastructure required to run the notebook. For example, if we go to this repository [bughunt-analysis](https://github.com/mchesterkadwell/bughunt-analysis) we will see a "Launch Binder" button. If we click on this mybinder will start creating an environment for running the notebooks in this repository. This will *usually* include the required data, python libraries etc., needed for the notebook to run successfully. In this 'easy mode,' we don't need to do anything but be a bit patient whilst mybinder launches. 
 
 #### Exercise: Binder on hard mode 
 
@@ -214,9 +214,9 @@ There is a bit of a debate about when/whether notebooks are a good idea. These t
 
 Supposing all of the above is old news to you and you are already confident in using binder/colab/running notebooks locally. In that case, this section introduces some weird and wonderful things we can do using notebooks you could explore. 
 
-For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
+For a fuller list of things you can do in notebooks, there is a nice list of ["awesome jupyter"](https://github.com/markusschanta/awesome-jupyter) list that you might also want to look at. In the below list, I've picked out some personal highlights with a short summary of what they are and why they might be helpful in a GLAM setting. 
 
-For some specific GLAM examples of notebook see: [https://glam-workbench.net/more-glam-notebooks/]()
+For some specific GLAM examples of notebook being used for various things see: [https://glam-workbench.net/more-glam-notebooks/]()
 
 ### Create a Python library using notebooks
 
